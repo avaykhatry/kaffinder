@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaffinder ☕</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kaffinder ☕</h1>
+    <p>Find cafes by vibe, Wi-Fi, and wallet!</p>
+  </header>
+
+  <section id="filters">
+    <select id="priceFilter">
+      <option value="all">All Prices</option>
+      <option value="150">Under ₹150</option>
+      <option value="200">Under ₹200</option>
+    </select>
+
+    <div id="tagFilters">
+      <button data-tag="all" class="active">All</button>
+      <button data-tag="quiet">Quiet</button>
+      <button data-tag="free-wifi">Free Wi-Fi</button>
+      <button data-tag="laptop-friendly">Laptop-Friendly</button>
+      <button data-tag="outdoor-seating">Outdoor</button>
+    </div>
+  </section>
+  
+  <main id="cafeList"></main>
+  
+  <footer>
+    <span>
+        Copyright &copy; Kaffinder All Rights Reserved.
+    </span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
