@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cafe001",
+    "name": "Salon de Kathmandu Cafe & Bistro",
+    "location": "Lazimpat, Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Salon+de+Kathmandu+Lazimpat",
+    "tags": ["garden", "quiet", "laptop-friendly", "vegetarian", "mid‑budget"],
+    "priceRange": 500,
+    "photo": "https://yourcdn.com/images/salon-de-kathmandu.jpg"
+  },
+  {
+    "id": "cafe002",
+    "name": "Utpala Cafe",
+    "location": "Boudhanath, Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Utpala+Cafe+Boudhanath",
+    "tags": ["vegetarian", "garden", "wifi", "budget", "laptop-friendly"],
+    "priceRange": 300,
+    "photo": "https://yourcdn.com/images/utpala-cafe.jpg"
+  },
+  {
+    "id": "cafe003",
+    "name": "Apricus Cafe",
+    "location": "Kathmandu (central)",
+    "mapLink": "https://maps.google.com/?q=Apricus+Cafe+Kathmandu",
+    "tags": ["garden", "wifi", "laptop-friendly", "cozy", "fusion"],
+    "priceRange": 400,
+    "photo": "https://yourcdn.com/images/apricus-cafe.jpg"
+  },
+  {
+    "id": "cafe004",
+    "name": "Pumpernickel Bakery",
+    "location": "Thamel, Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Pumpernickel+Bakery+Thamel",
+    "tags": ["bakery", "wifi", "laptop‑friendly", "budget", "pastries"],
+    "priceRange": 250,
+    "photo": "https://yourcdn.com/images/pumpernickel-bakery.jpg"
+  },
+  {
+    "id": "cafe005",
+    "name": "Karma Coffee",
+    "location": "Boudhanath (Pawo Gompa Marg), Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Karma+Coffee+Boudhanath",
+    "tags": ["organic", "wifi", "laptop-friendly", "cozy", "vegan‑friendly"],
+    "priceRange": 350,
+    "photo": "https://yourcdn.com/images/karma-coffee.jpg"
+  },
+  {
+    "id": "cafe006",
+    "name": "Everfresh Cafe & Bakery",
+    "location": "Kathmandu (central)",
+    "mapLink": "https://maps.google.com/?q=Everfresh+Cafe+Kathmandu",
+    "tags": ["local beans", "wifi", "garden‑style seating", "healthy‑menu", "mid‑budget"],
+    "priceRange": 400,
+    "photo": "https://yourcdn.com/images/everfresh-cafe.jpg"
+  },
+  {
+    "id": "cafe007",
+    "name": "Cafe Soma",
+    "location": "Baluwatar, Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Cafe+Soma+Baluwatar",
+    "tags": ["garden", "wifi", "laptop‑friendly", "sandwiches", "mid‑budget"],
+    "priceRange": 450,
+    "photo": "https://yourcdn.com/images/cafe-soma.jpg"
+  },
+  {
+    "id": "cafe008",
+    "name": "Salon de Kathmandu Cafe & Bistro (duplicate fewer gardens)",
+    "location": "Patan/Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Salon+de+Kathmandu+Patan",
+    "tags": ["garden", "quiet", "fusion", "mid‑budget", "vegetarian"],
+    "priceRange": 500,
+    "photo": "https://yourcdn.com/images/salon-patan.jpg"
+  },
+  {
+    "id": "cafe009",
+    "name": "Snowman Cafe",
+    "location": "Basantapur, Kathmandu",
+    "mapLink": "https://maps.google.com/?q=Snowman+Cafe+Basantapur",
+    "tags": ["hipster", "cheap", "tea‑specialty", "budget", "artsy"],
+    "priceRange": 200,
+    "photo": "https://yourcdn.com/images/snowman-cafe.jpg"
+  },
+  {
+    "id": "cafe010",
+    "name": "Deli Akuj",
+    "location": "Kathmandu (central)",
+    "mapLink": "https://maps.google.com/?q=Deli+Akuj+Kathmandu",
+    "tags": ["desserts", "brunch", "minimalist", "garden", "mid‑budget"],
+    "priceRange": 500,
+    "photo": "https://yourcdn.com/images/deli-akuj.jpg"
+  }
+]
