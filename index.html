@@ -9,30 +9,37 @@
 <body>
   <header>
     <h1>Kaffinder ☕</h1>
-    <p>Find cafes by vibe, Wi-Fi, and wallet!</p>
+    <p>Find cafes by vibe
+      <!-- , Wi-Fi, and wallet! -->
+    </p>
   </header>
 
   <section id="filters">
-    <select id="priceFilter">
-      <option value="all">All Prices</option>
-      <option value="150">Under ₹150</option>
-      <option value="200">Under ₹200</option>
-    </select>
+    <!-- <div>
+      <span>Coffee Price</span>
+      <select id="priceFilter">
+        <option value="all">All Prices</option>
+        <option value="150">Under ₹150</option>
+        <option value="200">Under ₹200</option>
+      </select>
+    </div> -->
 
     <div id="tagFilters">
-      <button data-tag="all" class="active">All</button>
-      <button data-tag="quiet">Quiet</button>
-      <button data-tag="free-wifi">Free Wi-Fi</button>
-      <button data-tag="laptop-friendly">Laptop-Friendly</button>
-      <button data-tag="outdoor-seating">Outdoor</button>
+      <button id="all" data-tag="all">All</button>
+      <button id="laptop-friendly" data-tag="laptop-friendly">Laptop/Study Friendly</button>
+      <button id="outdoor-seating" data-tag="outdoor-seating">Outdoor Seating</button>
+      <button id="group" data-tag="group">Group</button>
+      <button id="date-spot" data-tag="date-spot">Date Spot</button>
+      <button id="quick-snack" data-tag="quick-snack">Quick Snacks</button>
     </div>
   </section>
   
-  <main id="cafeList">hola</main>
+  <ul id="cafeList"></ul>
   
   <footer>
     <span>
-        Copyright &copy; Kaffinder All Rights Reserved.
+        Copyright &copy; 2025 Kaffinder
+        <!-- . All Rights Reserved. -->
     </span>
   </footer>
 

@@ -21,6 +21,22 @@ header {
   gap: 0.5rem;
 }
 
+#filters > :nth-child(1) {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#tagFilters button:hover {
+  background: #6f8f72;
+  color: #000;
+  transition: all 0.4s ease;
+}
+
+#tagFilters button:active {
+  background: #292929;
+  color: #fff;
+}
+
 #tagFilters button {
   margin: 0.3rem;
   padding: 0.5rem 1rem;
@@ -62,6 +78,10 @@ header {
   margin-top: 0.5rem;
   font-size: 0.85rem;
   color: #666;
+}
+
+#cafeList li {
+  list-style-type: none;
 }
 
 /* footer start */

@@ -1,92 +1,191 @@
 [
   {
     "id": "cafe001",
-    "name": "Salon de Kathmandu Cafe & Bistro",
-    "location": "Lazimpat, Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Salon+de+Kathmandu+Lazimpat",
-    "tags": ["garden", "quiet", "laptop-friendly", "vegetarian", "mid‑budget"],
-    "priceRange": 500,
-    "photo": "https://yourcdn.com/images/salon-de-kathmandu.jpg"
+    "name": "Coffee Culture",
+    "location": "Jhamsikhel, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/7kxKYAJYcEfjXzeM9",
+    "tags": ["laptop-friendly", "group"],
+    "priceRange": 200,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe002",
-    "name": "Utpala Cafe",
-    "location": "Boudhanath, Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Utpala+Cafe+Boudhanath",
-    "tags": ["vegetarian", "garden", "wifi", "budget", "laptop-friendly"],
-    "priceRange": 300,
-    "photo": "https://yourcdn.com/images/utpala-cafe.jpg"
+    "name": "Cafe Soma",
+    "location": "Bakhundole, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/CnT1dfruGpJpWxkv9",
+    "tags": ["laptop-friendly", "group"],
+    "priceRange": 350,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe003",
-    "name": "Apricus Cafe",
-    "location": "Kathmandu (central)",
-    "mapLink": "https://maps.google.com/?q=Apricus+Cafe+Kathmandu",
-    "tags": ["garden", "wifi", "laptop-friendly", "cozy", "fusion"],
-    "priceRange": 400,
-    "photo": "https://yourcdn.com/images/apricus-cafe.jpg"
+    "name": "The Workshop Eatery",
+    "location": "Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/qf2fAcoEVg3DsGVn8",
+    "tags": ["laptop-friendly", "group"],
+    "priceRange": 300,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe004",
-    "name": "Pumpernickel Bakery",
-    "location": "Thamel, Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Pumpernickel+Bakery+Thamel",
-    "tags": ["bakery", "wifi", "laptop‑friendly", "budget", "pastries"],
-    "priceRange": 250,
-    "photo": "https://yourcdn.com/images/pumpernickel-bakery.jpg"
+    "name": "Karma Coffee Nepal",
+    "location": "Lazimpat, Kathmandu",
+    "mapLink": "https://maps.app.goo.gl/zBSRRMA5DtvRruZ78",
+    "tags": ["date-spot", "laptop-friendly"],
+    "priceRange": 400,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe005",
-    "name": "Karma Coffee",
-    "location": "Boudhanath (Pawo Gompa Marg), Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Karma+Coffee+Boudhanath",
-    "tags": ["organic", "wifi", "laptop-friendly", "cozy", "vegan‑friendly"],
-    "priceRange": 350,
-    "photo": "https://yourcdn.com/images/karma-coffee.jpg"
+    "name": "Cafe de Patan",
+    "location": "Patan, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/MRBvFoagx8Jkznvo6",
+    "tags": ["outdoor-seating", "date-spot"],
+    "priceRange": 250,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe006",
-    "name": "Everfresh Cafe & Bakery",
-    "location": "Kathmandu (central)",
-    "mapLink": "https://maps.google.com/?q=Everfresh+Cafe+Kathmandu",
-    "tags": ["local beans", "wifi", "garden‑style seating", "healthy‑menu", "mid‑budget"],
-    "priceRange": 400,
-    "photo": "https://yourcdn.com/images/everfresh-cafe.jpg"
+    "name": "Yala Cafe & Coffee Co.",
+    "location": "Patan Durbar Square, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/J7kzCyFq4DZ1wEzWA",
+    "tags": ["date-spot", "group", "outdoor-seating"],
+    "priceRange": 350,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe007",
-    "name": "Cafe Soma",
-    "location": "Baluwatar, Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Cafe+Soma+Baluwatar",
-    "tags": ["garden", "wifi", "laptop‑friendly", "sandwiches", "mid‑budget"],
-    "priceRange": 450,
-    "photo": "https://yourcdn.com/images/cafe-soma.jpg"
+    "name": "Cafe Swotha",
+    "location": "Patan, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/5KJt6mpo3SuyEAZR6",
+    "tags": ["date-spot", "outdoor-seating"],
+    "priceRange": 300,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe008",
-    "name": "Salon de Kathmandu Cafe & Bistro (duplicate fewer gardens)",
-    "location": "Patan/Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Salon+de+Kathmandu+Patan",
-    "tags": ["garden", "quiet", "fusion", "mid‑budget", "vegetarian"],
-    "priceRange": 500,
-    "photo": "https://yourcdn.com/images/salon-patan.jpg"
+    "name": "Java Central Cafe",
+    "location": "Mandala Street, Kathmandu",
+    "mapLink": "https://maps.app.goo.gl/ZUZTfFK4aLUa3hku8",
+    "tags": ["group", "laptop-friendly"],
+    "priceRange": 250,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe009",
-    "name": "Snowman Cafe",
-    "location": "Basantapur, Kathmandu",
-    "mapLink": "https://maps.google.com/?q=Snowman+Cafe+Basantapur",
-    "tags": ["hipster", "cheap", "tea‑specialty", "budget", "artsy"],
-    "priceRange": 200,
-    "photo": "https://yourcdn.com/images/snowman-cafe.jpg"
+    "name": "The Local Project",
+    "location": "Jhamsikhel, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/35GUWmYyaFj9RCFaA",
+    "tags": ["laptop-friendly", "group"],
+    "priceRange": 300,
+    "photo": "https://www.picsum.photos/400/300"
   },
   {
     "id": "cafe010",
-    "name": "Deli Akuj",
-    "location": "Kathmandu (central)",
-    "mapLink": "https://maps.google.com/?q=Deli+Akuj+Kathmandu",
-    "tags": ["desserts", "brunch", "minimalist", "garden", "mid‑budget"],
+    "name": "Backyard Cafe",
+    "location": "Bakhundole, Lalitpur",
+    "mapLink": "https://maps.app.goo.gl/tk7S7MnUGaY6XZ1x8",
+    "tags": ["outdoor-seating", "group", "date-spot"],
+    "priceRange": 350,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe011",
+    "name": "Karma Coffee",
+    "location": "Lalitpur",
+    "mapLink": "https://goo.gl/maps/kvG7xps2q8eGjEPH7",
+    "tags": ["laptop-friendly", "date-spot"],
+    "priceRange": 300,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe012",
+    "name": "Cafe Soma",
+    "location": "Lalitpur",
+    "mapLink": "https://goo.gl/maps/qDk45KJzBtHbeJ9M7",
+    "tags": ["laptop-friendly", "date-spot"],
+    "priceRange": 300,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe013",
+    "name": "The Workshop Eatery",
+    "location": "Lalitpur",
+    "mapLink": "https://goo.gl/maps/rDUKnbU6MkKBRNxn6",
+    "tags": ["group", "date-spot", "outdoor-seating"],
     "priceRange": 500,
-    "photo": "https://yourcdn.com/images/deli-akuj.jpg"
-  }
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe014",
+    "name": "Cafe de Patan",
+    "location": "Patan",
+    "mapLink": "https://goo.gl/maps/VnQMEvQAwsvdNeex9",
+    "tags": ["outdoor-seating", "date-spot"],
+    "priceRange": 400,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe015",
+    "name": "Cafe Swotha",
+    "location": "Patan",
+    "mapLink": "https://goo.gl/maps/1B7BVi3GqV4MQVda8",
+    "tags": ["date-spot"],
+    "priceRange": 600,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe016",
+    "name": "Cafe Illiterati",
+    "location": "Lazimpat, Kathmandu",
+    "mapLink": "https://goo.gl/maps/4b1N8GmPhGp5rxPY9",
+    "tags": ["laptop-friendly", "date-spot", "group"],
+    "priceRange": 400,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe017",
+    "name": "Kar.ma Coffee",
+    "location": "Jhamsikhel, Lalitpur",
+    "mapLink": "https://goo.gl/maps/fuj6yo29mcxYMj7QA",
+    "tags": ["laptop-friendly", "outdoor-seating"],
+    "priceRange": 350,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe018",
+    "name": "Dhokaima Cafe",
+    "location": "Patan",
+    "mapLink": "https://goo.gl/maps/LnWywQbAJNxt8YDUA",
+    "tags": ["group", "outdoor-seating", "date-spot"],
+    "priceRange": 400,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe019",
+    "name": "Karma Coffee",
+    "location": "Kathmandu",
+    "mapLink": "https://goo.gl/maps/yWQ1GfRkTbV9J2EJ6",
+    "tags": ["laptop-friendly", "group"],
+    "priceRange": 450,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+    "id": "cafe020",
+    "name": "Java Central Cafe",
+    "location": "Bhaktapur",
+    "mapLink": "https://goo.gl/maps/UzMg2EwWWfTcWdcE6",
+    "tags": ["group", "date-spot"],
+    "priceRange": 300,
+    "photo": "https://www.picsum.photos/400/300"
+  },
+  {
+  "id": "cafe021",
+  "name": "Red Mud Coffee",
+  "location": "Jhamsikhel, Lalitpur",
+  "mapLink": "https://goo.gl/maps/LzDjEfj4cL9oww7q7",
+  "tags": ["group", "laptop-friendly"],
+  "priceRange": 300,
+  "photo": "https://www.picsum.photos/400/300"
+}
 ]
