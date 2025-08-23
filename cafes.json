@@ -190,5 +190,17 @@
   "tags": ["group", "laptop-friendly"],
   "priceRange": 300,
   "photo": "https://www.picsum.photos/400/300"
-}
+},
+  {
+    "id": "cafe022",
+    "name": "Ujamaa koffie & bakery with library",
+    "location": "Sankhamul, Kathmandu",
+    "photo": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTuUmb1f0atscZFLGxsXD83ouA0Ds3IOgN-4WeiJRuQUIpD1RRZz2biFznOERFlvCe8SrWkZTpeJ1XPHy2L-L6UMMO72XMuPSgifsekN-ruwGsECw-NEMiQmqtCvbvpLQBxkR2=w289-h312-n-k-no",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.068958024926!2d85.3333667!3d27.6842635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190ef127ecf3%3A0xa3dfb0fde2a736ff!2sUjamaa%20koffie%20%26%20bakery%20with%20library!5e0!3m2!1sen!2snp!4v1755969578706!5m2!1sen!2snp",
+    "tags": ["laptop-friendly", "group"],
+    "phone": "015900255",
+  "email": "",
+  "website": "https://ujamaa.coffee/",
+    "priceRange": 500
+  }
 ]
