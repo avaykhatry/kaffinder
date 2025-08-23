@@ -1,0 +1,140 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+:root {
+    --bg: #292929;
+    --txt: #fff;
+    --accent: #B59C7C;
+}
+
+
+/* header start */
+header {
+  background: var(--bg);
+  color: var(--txt);
+  padding: 1rem 2rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+header h1 {
+    margin-right: auto;
+}
+
+header :nth-child(2) a:hover {
+    color: var(--accent);
+}
+header :nth-child(2) a {
+    text-decoration: none;
+    color: var(--txt);
+}
+
+
+/* header end */
+
+/* hero start */
+.hero {
+    position: relative;
+    color: var(--txt);
+    max-height: 35vh;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.hero img {
+    position: relative;
+    object-fit: cover;
+    opacity: .69;
+    height: inherit;
+    z-index: 1;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+}
+/* end of hero */
+
+/* main start */
+
+.main {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+
+    max-width: 80vw;
+    margin: auto;
+}
+
+.location {
+    padding-bottom: 16px; 
+}
+
+.separator {
+    height: 1px;
+    background: var(--bg);
+    opacity: .2;
+}
+
+.gallery {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.gallery .list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.gallery .list {
+    columns: 300px;
+}
+
+.contact {
+    margin: 3rem auto 3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .15) !important;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.8rem;
+    gap: 3px;
+}
+
+.contact > :nth-child(1) {
+    padding-bottom: 1.8rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.contact button {
+    margin-top: 1.4rem;
+    width: 25vw;
+}
+/* main end */
+
+/* footer start */
+
+footer {
+    color: var(--txt);
+    background-color: var(--bg);
+    padding: 1rem;
+}
+footer :nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

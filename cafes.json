@@ -3,10 +3,13 @@
     "id": "cafe001",
     "name": "Coffee Culture",
     "location": "Jhamsikhel, Lalitpur",
-    "mapLink": "https://maps.app.goo.gl/7kxKYAJYcEfjXzeM9",
+    "photo": "https://www.picsum.photos/400/300",
+    "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113053.17415238208!2d85.2201956099177!3d27.68912410643559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb183452434661%3A0xa6c810259557c1ef!2sCafe%20Soma%20-%20Jhamsikhel!5e0!3m2!1sen!2snp!4v1754143609850!5m2!1sen!2snp",
     "tags": ["laptop-friendly", "group"],
-    "priceRange": 200,
-    "photo": "https://www.picsum.photos/400/300"
+    "phone": "+9779800000000",
+  "email": "info@cafesoma.com",
+  "website": "http://cafesoma.com",
+    "priceRange": 200
   },
   {
     "id": "cafe002",

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaffinder ☕</title>
+    <link rel="stylesheet" href="/css/cafe.css">
+</head>
+<body>
+    <header>
+        <h1>Kaffinder ☕</h1>
+        <span><a href="../index.html">Home</a></span>
+    </header>
+    <div class="hero">
+        <img id="cafeImage" src="https://www.picsum.photos/400/300" alt="" style="width:100%;">
+        <h2 id="cafeName">cafe soma</h2>
+    </div>
+    <section class="main">
+        <div class="location">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113053.17415238208!2d85.2201956099177!3d27.68912410643559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb183452434661%3A0xa6c810259557c1ef!2sCafe%20Soma%20-%20Jhamsikhel!5e0!3m2!1sen!2snp!4v1754143609850!5m2!1sen!2snp" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <div class="list">
+                <img src="http://static3.minitokyo.net/thumbs/00/33/434150.jpg" alt="image">
+        <img src="http://static3.minitokyo.net/thumbs/19/27/386369.jpg" alt="image">
+        <img src="http://static3.minitokyo.net/thumbs/07/31/579057.jpg" alt="image">
+        <img src="http://static3.minitokyo.net/thumbs/49/32/434149.jpg" alt="image">
+        <img src="https://images.unsplash.com/photo-1560972550-aba3456b5564?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWV8ZW58MHx8MHx8fDA%3D" alt="image">
+        <img src="https://images.unsplash.com/photo-1744168222804-2bed62b24f86?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8" alt="image">
+        <img src="https://images.unsplash.com/photo-1750268746263-52cdef61e177?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8" alt="image">
+        <img src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWV8ZW58MHx8MHx8fDA%3D" alt="image">
+        <img src=" https://plus.unsplash.com/premium_photo-1682124729413-6d940f082212?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFuaW1lfGVufDB8fDB8fHww" alt="image">
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="contact">
+            <div>Contact</div>
+            <span id="phone">+97798******</span>
+            <span id="email">somacafe@gmail.com</span>
+            <span id="mail">http://www.cafesoma.com</span>
+            <button id="msg">SEND A MESSAGE</button>
+        </div>
+
+    </section>
+
+    <footer>
+        <span>
+            Copyright &copy; 2025 Kaffinder
+            <!-- . All Rights Reserved. -->
+        </span>
+    </footer>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const cafeId = params.get('id');
+
+        fetch('../cafes.json')
+        .then(response => response.json())
+        .then(cafeData => {
+                renderCafeDetail(cafeData.find(cafe => cafe.id === cafeId));
+        });
+        
+                function renderCafeDetail(cafe) {
+                    document.getElementById('cafeName').textContent = cafe.name;
+                    document.getElementById('cafeImage').src = cafe.photo;
+                    
+                    document.querySelector('.location iframe').src = cafe.mapLink || "N/A";
+        
+                    document.getElementById('phone').textContent = cafe.phone || "N/A";
+                    document.getElementById('email').textContent = cafe.email || "N/A";
+                    document.getElementById('mail').textContent = cafe.website || "N/A";
+                }
+
+</script>
+
+</body>
+</html>

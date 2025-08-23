@@ -1,0 +1,127 @@
+:root {
+  --bg: #292929;
+  --txt: #fff;
+  --accent: #B59C7C;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: var(--bg);
+  color: var(--txt);
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav h1 {
+  margin-right: auto;
+}
+
+header nav :nth-child(2) a:hover {
+  color: var(--accent);
+}
+header nav :nth-child(2) a {
+  text-decoration: none;
+  color: var(--txt)
+}
+
+#filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+#filters > :nth-child(1) {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#tagFilters button:hover {
+  background: #6f8f72;
+  color: #000;
+  transition: all 0.4s ease;
+}
+
+#tagFilters button:active {
+  background: var(--bg);
+  color: #fff;
+}
+
+#tagFilters button {
+  margin: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#tagFilters .active {
+  background: #292929;
+  color: white;
+}
+
+#cafeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-tags {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+#cafeList li {
+  list-style-type: none;
+}
+
+.tag {
+  border-radius: 10px;
+  border: none;
+}
+/* footer start */
+
+footer {
+    background-color: var(--bg);
+    color: var(--txt);
+    padding: 1rem;
+}
+footer :nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

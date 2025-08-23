@@ -19,27 +19,34 @@ if (!localStorage.getItem('currentTag')) {
 
 filterCafes();
 
+function styleTag(tagData) {
+  return tagData.map(function(item) {
+    return `<button class="tag">${item}</button>`;
+  }).join(" ");
+}
+
 //function for cafe data rendering
 function renderCafes(data) {
 
   cafeList.innerHTML = "";
-  for (let i = 0; i < data.length; i++ ) {
-      const cafeName = data[i].name;
-      const cafeLocation = data[i].location;
 
+  data.forEach((cafe) => {
       const li = document.createElement('li');
       li.className = "card";
       li.innerHTML = `
-      <img src='${data[i].photo}'>
+      <img src='${cafe.photo}'>
         <div class='card-content'>
-          <h3>${cafeName}</h3>
-          <p>${cafeLocation}</p>
-          <div class='card-tags'>${data[i].tags.join(", ")}</div>
+          <h3>${cafe.name}</h3>
+          <p>${cafe.location}</p>
+          <div class='card-tags'>${styleTag(cafe.tags)}</div>
         </div>
       `;
 
+      li.addEventListener("click", function() {
+        window.location.href = `../pages/cafe.html?id=${cafe.id}`;
+      });
       cafeList.append(li);
-    }
+    });
 }
 
 //function for filtering tag here
